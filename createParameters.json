@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "networkInterfaceName": {
+            "value": "vmusingarm895"
+        },
+        "networkSecurityGroupName": {
+            "value": "VMusingARM-nsg"
+        },
+        "networkSecurityGroupRules": {
+            "value": []
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/9d313565-94c5-43c6-a91e-728396d51227/resourceGroups/SukritiAutomationPOC/providers/Microsoft.Network/virtualNetworks/SukritiAutomationPOC-vnet"
+        },
+        "publicIpAddressName": {
+            "value": "VMusingARM-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "virtualMachineName": {
+            "value": "VMusingARM"
+        },
+        "virtualMachineRG": {
+            "value": "SukritiAutomationPOC"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "adminUsername": {
+            "value": "SukritiAdmin"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "sukriti1"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/9d313565-94c5-43c6-a91e-728396d51227/resourceGroups/SukritiAutomationPOC/providers/Microsoft.Storage/storageAccounts/sukriti1"
+        }
+    }
+}
